@@ -1,26 +1,69 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+logs/*
+pids
+*.pid
+*.seed
 
-node_modules/
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Temporary files
+tmp/
+temp/
+cache/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
 
-.env
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Built files
+dist/
+build/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Git
+*.lock
+*.swp
+*.swo
+*~
+.project
+.classpath
+*.tmp
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Test files
+test/coverage
+test/temp
+
+# Custom
+public/uploads/
+public/temp/
+
+# Docker
+Dockerfile
+docker-compose.yml
+*.dockerignore
